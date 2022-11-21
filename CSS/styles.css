@@ -41,7 +41,7 @@ body {
 
 .topnav {
     overflow: hidden;
-    background-color: #BFBB7E;
+    background-color: #402D1D;
 
 
 }
@@ -76,7 +76,7 @@ body {
 
 div.galleryone {
     border: 1px solid black;
-    background-color: #F1F2C2;
+    background-color: #402D1D;
     color: #F1F2D8;
 }
 
@@ -188,7 +188,7 @@ div.desc {
 }
 
 .footer {
-    background-color: #8C8146;
+    background-color: #BEBB85;
     padding: 20px;
     text-align: center;
     text-decoration: #ccc;
