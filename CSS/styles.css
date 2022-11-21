@@ -82,6 +82,7 @@ div.galleryone {
 
 div.galleryone:hover {
     border: 1px solid #F1F2C2;
+
 }
 
 div.galleryone img {
@@ -128,6 +129,10 @@ div.gallery {
     border: 1px solid black;
     background-color: #402D1D;
     color: #F1F2D8;
+}
+
+img:hover {
+    opacity: 0.5;
 }
 
 div.gallery:hover {
