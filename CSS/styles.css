@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    background-color: #F2F2F2;
+    font-family: 'Open Sans', Tahoma, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.header {
+    background-color: #BEBB85;
+    padding: 10px;
+    text-align: center;
+    background-image: cover;
+    border: 1px solid #ccc;
+
+}
+
+
+.h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+
+}
+
+.h2 {
+    text-decoration: none;
+    text-align: center;
+    font-size: bold;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+
+
+}
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #BFBB7E;
+
+
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: smaller;
+    border-right: 1px solid #bbb;
+
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.infotext {
+    background-color: #F1F2D8;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+
+}
+
+
+div.galleryone {
+    border: 1px solid black;
+    background-color: #F1F2C2;
+    color: #F1F2D8;
+}
+
+div.galleryone:hover {
+    border: 1px solid #F1F2C2;
+}
+
+div.galleryone img {
+    width: 100%;
+    height: auto;
+    position: relative
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsiveone {
+    padding: 0 6px;
+    float: left;
+    width: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.gallery {
+    border: 1px solid black;
+    background-color: #F1F2C2;
+    color: #F1F2D8;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button {
+    color: white;
+    border-radius: 4%;
+    background-color: #402C1A;
+    border: 2px solid black;
+    padding: 8px 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin: 6px 2px;
+    cursor: pointer;
+
+}
+
+.footer {
+    background-color: #8C8146;
+    padding: 20px;
+    text-align: center;
+    text-decoration: #ccc;
+    width: auto;
+    border: 0px solid black;
+}
