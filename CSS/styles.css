@@ -14,7 +14,7 @@ body {
     padding: 10px;
     text-align: center;
     background-image: cover;
-    border: 1px solid #ccc;
+    border: 1px solid black;
 
 }
 
@@ -22,7 +22,7 @@ body {
 .h1 {
     text-align: center;
     text-transform: uppercase;
-    font-size: larger;
+    font-size: small;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 
 }
@@ -30,7 +30,7 @@ body {
 .h2 {
     text-decoration: none;
     text-align: center;
-    font-size: bold;
+    font-size: small;
     font-style: normal;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 
@@ -55,8 +55,9 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: bold;
+    font-size: small;
     border-right: 1px solid #bbb;
+
 
 }
 
@@ -136,16 +137,29 @@ div.gallery {
 
 }
 
+
+.info {
+    background-color: #BEBB85;
+    color: #402D1D;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: auto;
+}
+
 /* Float four columns side by side */
 .column {
     float: left;
     width: 25%;
     padding: 0 10px;
+    font-size: small;
+
 }
 
 /* Remove extra left and right margins, due to padding in columns */
 .row {
-    margin: 0 -5px;
+    margin: 0 -2px;
 }
 
 /* Clear floats after the columns */
@@ -169,7 +183,7 @@ div.gallery {
     .column {
         width: 100%;
         display: block;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 }
 
@@ -196,12 +210,13 @@ div.desc {
     padding: 0 6px;
     float: left;
     width: 24.99999%;
+
 }
 
 @media only screen and (max-width: 700px) {
     .responsive {
         width: 49.99999%;
-        margin: 6px 0;
+        margin: 2px 0;
     }
 }
 
@@ -222,7 +237,7 @@ select,
 textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -247,20 +262,23 @@ input[type=submit] {
 
 
 .container {
-    border-radius: 5px;
+    border-radius: 0px;
     background-color: #BEBB85;
-    padding: 20px;
+    border: 1px solid black;
+    padding: 10px;
     font-size: smaller;
+    width: auto;
+
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
 
+
 }
 
 .grid-container>div {
-    background-color: #F0701A;
     border: 1px solid black;
     text-align: center;
     font-size: 12px;
@@ -282,11 +300,16 @@ input[type=submit] {
 
 }
 
+p.b {
+    word-spacing: 30px;
+}
+
 .footer {
     background-color: #BEBB85;
     padding: 20px;
     text-align: center;
     text-decoration: #ccc;
     width: auto;
-    border: 0px solid black;
+    border: 1px solid black;
+    font-size: small;
 }
